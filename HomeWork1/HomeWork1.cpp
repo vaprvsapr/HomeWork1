@@ -19,4 +19,7 @@ int main()
 
     int k;
     cin >> k;
+    
+    while(k != 0)
+        k--;
 }

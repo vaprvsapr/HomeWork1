@@ -12,4 +12,9 @@ int main() {
 
     cout << s;
     return 0;
+
+    int j = 10;
+    while (j > 0)
+        j--;
+    
 }

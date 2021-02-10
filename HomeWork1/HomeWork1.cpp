@@ -3,6 +3,11 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
+
+void nothing(int i) {
+    
+}
+
 int main() {
     // put your code here
     float x, y, z;

@@ -6,4 +6,8 @@ int main() {
 	int n;
 	cin >> n;
 	cout << n;
+
+	int p;
+	cin >> p;
+	cout << p;
 }

@@ -1,25 +1,15 @@
 
 
 #include <iostream>
-#include <boost/align.hpp>
-
+#include <cmath>
 using namespace std;
+int main() {
+    // put your code here
+    float x, y, z;
+    float p = (x + y + z) / 2;
 
-int main()
-{
-    std::cout << "Hello World!\n";
-    std::cout << "First changes\n";
+    float s = sqrt(p * (p - x) * (p - y) * (p - z));
 
-    int n;
-    cin >> n;
-    for (int i = 0; i < n; i++)
-        cout << i;
-
-    // a little comment
-
-    int k;
-    cin >> k;
-    
-    while(k != 0)
-        k--;
+    cout << s;
+    return 0;
 }

@@ -7,7 +7,7 @@ int main() {
 	cin >> n;
 	cout << n;
 
-	int m;
-	cin >> m;
-	cout << m << " = m";
+	int p;
+	cin >> p;
+	cout << p;
 }
